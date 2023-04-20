@@ -6,13 +6,24 @@
     </head>
     <body>
         <header>
+            <h3><script src="app.js"></script></h3>
             <h1>My Top 3 Anime of 2023</h1>
             <nav>
                 <a href="http://rociocmartinez.github.io/website-projectlab4">Partner's Page</a>
-                <a href="#">External Link</a>
+                <a href="https://www.crunchyroll.com/">Crunchyroll</a>
             </nav>    
         </header>
         <main>
+        <h3>
+        <script>
+            const date = Date.now();
+            let day = date.getDate();
+            let month = date.getMonth() + 1;
+            let year = date.getFullYear();
+            document.write(date + month + year)
+        </script>
+        </h3>
+            <section>
             <ol>
                 <li>Lycoris Recoil
                     <p>Descriptive Text</p>
@@ -24,12 +35,13 @@
                     <p>Descriptive Text</p>
                 </li>    
             </ol>
+            </section>    
             <img src="https://s1.zerochan.net/Lycoris.Recoil.600.3596422.jpg"/>
             <img src="https://s1.zerochan.net/Spy.%C3%97.Family.600.3636412.jpg"/>
             <img src="https://pbs.twimg.com/media/Eq1ApvrW8AEnsZm?format=jpg&name=900x900"/>
         </main>
         <footer>
-            <p>Authors Signature</p>
+            <p #id="authors-signature">Authors Signature</p>
             <a href="#">Link Title</a>
         </footer>
     </body>
