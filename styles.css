@@ -1,6 +1,7 @@
 *{
     border: 10px;
     border-color: white;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -11,22 +12,32 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 45px;
-
+    font-size: 55px;
+    
+    
 }
 
 nav {
-background-color: rgb(209, 116, 238);
-height: 40px;
-font-size: 25px;
-border-color: black;
-
+    background-color: rgb(209, 116, 238);
+    height: px;
+    font-size: 25px;
+    border-color: black;
+    
 }
-
 
 header {
     background-color: rgb(214, 181, 241);
     height: 160px
+}
+
+main{
+    width: 95%;
+    margin: auto;
+    min-height: 700px;
+}
+
+ul {
+    list-style: none;
 }
 
 img {
@@ -39,18 +50,25 @@ img {
 a {
     color: white;
     text-align: center;
+    text-align: right;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    background: rgb(214, 181, 241);
 }
 
 footer {
     background-color: rgb(214, 181, 241);
-    height: 150px;
-}
-
-main{
-    width: 95%;
-    margin: auto;
+    height: 100px;
+    font-size: 25px
 }
 
 section {
     padding-top: 20px;
+}
+
+#date {
+    text-align:
 }
